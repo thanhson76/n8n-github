@@ -1,0 +1,8 @@
+{
+  "name": "n8n Codespace",
+  "build": {
+    "dockerfile": "../Dockerfile"
+  },
+  "forwardPorts": [5678],
+  "postCreateCommand": "n8n"
+}
